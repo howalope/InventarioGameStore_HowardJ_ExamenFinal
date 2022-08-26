@@ -21,7 +21,7 @@ namespace InventarioGameStore
 
         protected void BReporte_Click(object sender, EventArgs e)
         {
-            ProyeccionDB.Insert();
+            
         }
     }
 }
