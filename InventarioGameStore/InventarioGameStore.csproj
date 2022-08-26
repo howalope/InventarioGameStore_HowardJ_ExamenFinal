@@ -72,12 +72,13 @@
     <Content Include="CatalogoUsuarios.aspx" />
     <Content Include="CostoInventarios.aspx" />
     <Content Include="Images\LOGO.png" />
+    <Content Include="INVENTARIODB.sql" />
     <Content Include="Login.aspx" />
     <Content Include="MasterDesign.css" />
     <Content Include="Menu.aspx" />
     <Content Include="ProyeccionGanancias.aspx" />
     <Content Include="ReporteArticulos.aspx" />
-    <Content Include="SIngup.aspx" />
+    <Content Include="Singup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +103,7 @@
     <Compile Include="CatalogoUsuarios.aspx.designer.cs">
       <DependentUpon>CatalogoUsuarios.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ClsArticulos.cs" />
     <Compile Include="ClsUsuarios.cs" />
     <Compile Include="CostoInventarios.aspx.cs">
       <DependentUpon>CostoInventarios.aspx</DependentUpon>
@@ -147,12 +149,12 @@
     <Compile Include="ReporteArticulos.aspx.designer.cs">
       <DependentUpon>ReporteArticulos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SIngup.aspx.cs">
-      <DependentUpon>SIngup.aspx</DependentUpon>
+    <Compile Include="Singup.aspx.cs">
+      <DependentUpon>Singup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SIngup.aspx.designer.cs">
-      <DependentUpon>SIngup.aspx</DependentUpon>
+    <Compile Include="Singup.aspx.designer.cs">
+      <DependentUpon>Singup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

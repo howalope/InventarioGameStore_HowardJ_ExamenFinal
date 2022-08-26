@@ -6,9 +6,11 @@
         <br />
         Iniciar Sesión</p>
     <p>
+        Nombre:
         <asp:TextBox ID="TNombre" runat="server"></asp:TextBox>
     </p>
     <p>
+        Clave:&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TClave" runat="server" OnTextChanged="TClave_TextChanged"></asp:TextBox>
     </p>
     <p>
@@ -17,5 +19,5 @@
         <asp:Button ID="BIniciar" runat="server" Text="Iniciar Sesión" OnClick="BIniciar_Click" />
     </p>
     <p>
-        <a href="signup.aspx"> ¿No tengo cuenta? Registrarse </a></p>
+        <a href="Singup.aspx"> ¿No tengo cuenta? Registrarse </a></p>
 </asp:Content>

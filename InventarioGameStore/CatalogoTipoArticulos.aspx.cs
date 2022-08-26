@@ -11,7 +11,13 @@ namespace InventarioGameStore
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            LUsuario.Text = ClsUsuarios.GetNombreUsuario();
 
+        }
+
+        protected void BRegresar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Menu.aspx");
         }
     }
 }

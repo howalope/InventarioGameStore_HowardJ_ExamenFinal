@@ -3,11 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-        Bienvenido:
-        <asp:Label ID="LUsuario" runat="server"></asp:Label>
-    </p>
-    <p>
-        Menu de Opciones</p>
+        &nbsp;Menu de Opciones</p>
     <div class="dropdown">
   <button class="dropbtn" id="BDropdownC">Catálogos</button>
   <div class="dropdown-content">
@@ -25,4 +21,7 @@
     <a href="ReporteArticulos.aspx">Reporte de Artículos</a>
   </div>
 </div>
+    <br />
+    <br />
+    <asp:Button ID="BCerrarS" runat="server" OnClick="BCerrarS_Click" Text="Cerrar Sesión" />
 </asp:Content>

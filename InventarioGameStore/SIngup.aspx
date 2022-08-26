@@ -1,16 +1,19 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/InventarioMaster.Master" AutoEventWireup="true" CodeBehind="SIngup.aspx.cs" Inherits="InventarioGameStore.SIngup" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/InventarioMaster.Master" AutoEventWireup="true" CodeBehind="Singup.aspx.cs" Inherits="InventarioGameStore.SIngup" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
         Registro de Usuarios</p>
     <p>
+        Codigo Usuario:&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TCodigoUsuario" runat="server"></asp:TextBox>
     </p>
     <p>
+        Nombre Usuario:&nbsp;&nbsp;
         <asp:TextBox ID="TNombreUsuario" runat="server"></asp:TextBox>
     </p>
     <p>
+        Clave:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TClaveUsuario" runat="server"></asp:TextBox>
     </p>
     <p>

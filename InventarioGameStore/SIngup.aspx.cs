@@ -29,13 +29,15 @@ namespace InventarioGameStore
             if (resultado > 0)
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Notify", "alert('Notification: Usuario no ha sido Registrado');", true);
+                Response.Redirect("Login.aspx");
             }
             else
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Notify", "alert('Notification: Usuario ha sido Registrado');", true);
+                Response.Redirect("Login.aspx");
             }
             return;
-            Response.Redirect("Login.aspx");
+            
         }
     }
 }

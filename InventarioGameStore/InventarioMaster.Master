@@ -16,7 +16,8 @@
         <asp:Image ID="logo" runat="server" Height="202px" ImageUrl="~/Images/LOGO.png" Width="201px" class ="logo"/>
         <br />
         <br />
-        Diamond Game Store: Sistema de Inventatios<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        Diamond Game Store: Sistema de Inventatios<br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
     </form>
 </body>
